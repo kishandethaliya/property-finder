@@ -1,0 +1,57 @@
+.admin-layout {
+  position: relative;
+  height: 100%;
+  display: flex;
+}
+.admin-layout .custom-sidebar {
+  width: 200px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px 0px;
+  height: 100vh;
+  min-width: 200px;
+  z-index: 1;
+  display: block;
+}
+.custom-sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.custom-sidebar ul li a {
+  padding: 9px 20px;
+  display: block;
+  text-decoration: none;
+}
+.custom-sidebar ul li a.active {
+  background: #0d6efd;
+  color: #fff;
+}
+.admin-layout .custom-container {
+  display: block;
+  width: 100%;
+  padding: 25px 45px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.form-bg {
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.prop-img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+.preview-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.pagination {
+  justify-content: flex-end;
+}
+.map-container {
+  height: 300px;
+}
